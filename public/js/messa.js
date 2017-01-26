@@ -1,0 +1,1 @@
+$('#iPhoneWhite').addClass('animated bounceOutLeft');

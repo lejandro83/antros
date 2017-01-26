@@ -23,11 +23,12 @@ body {
   background: black;
   color: #FFF;
   font-family: 'Apercu-Light';
+  letter-spacing: 1px;
 }
 
 h1 span {
   color: #7858F2;
-  text-decoration: underline;
+  border-bottom: 5px solid #7858F2;
 }
 
 h2 span {
@@ -36,22 +37,23 @@ h2 span {
 
 hr {
     border: none;
-    background-color: #979797; /* Modern Browsers */
-    color: #979797; /* old IE */
-    height: 1px;
+    background-color: #1A1A1A; /* Modern Browsers */
+    color: #1A1A1A; /* old IE */
+    height: 2px;
     margin: 5% 0;
 }
 
 .arrow {
-  position: relative;
-  z-index: 3;
+  background-image: url("../images/down-arrow-min.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
   bottom: 0;
+  height: 22px;
   left: 50%;
   margin-left:-25%;
+  position: relative;
   width: 40px;
-  height: 22px;
-  background-image: url("../images/down-arrow-min.png");
-  background-size: contain;
+  z-index: 3;
 }
 
 .bounce {
@@ -123,7 +125,7 @@ animation-duration:2s;
 }
 
 .comming-soon{
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .comming-soon p{
@@ -139,13 +141,50 @@ animation-duration:2s;
 .explanation{
   color: #7858F2;
 }
-
+  
 .how-it-works p {
   font-size: 18px;
+  color: #6D6D6D;
 }
 
 .how-it-works .row {
   margin: 10% 0;
+}
+
+#iPhoneBlack{
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  -ms-animation-duration:2s;
+  -o-animation-duration:2s;
+  animation-duration:2s;  
+  -webkit-animation-delay:1s;
+  -moz-animation-delay:1s;
+  -ms-animation-delay:1s;
+  -o-animation-delay:1s;
+  animation-delay:1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+#iPhoneWhite{
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  -ms-animation-duration:2s;
+  -o-animation-duration:2s;
+  animation-duration:2s;  
+  -webkit-animation-delay:2s;
+  -moz-animation-delay:2s;
+  -ms-animation-delay:2s;
+  -o-animation-delay:2s;
+  animation-delay:2s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .iphone-white {
@@ -214,12 +253,13 @@ animation-duration:2s;
 
 .subscribe-title {
   padding: 5% 0;
+  letter-spacing: 1px;
 }
 
 .testimonial-text {
   background-color: #7858F2;
-  border-radius: .5rem;
-  padding: 10%;
+  border-radius: 0 .5rem .5rem .5rem  ;
+  padding: 8%;
 }
 
 .user-input {
@@ -238,6 +278,7 @@ animation-duration:2s;
 }
 
 .stars {
+  float: right;
   width: 50%;
 }
 
@@ -258,8 +299,8 @@ animation-duration:2s;
 .colophon .social-links img { 
   margin: 5% 10%; 
   width: 4%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: blur(2px);
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(100%); 
 }
 
 .colophon .social-links a { 
