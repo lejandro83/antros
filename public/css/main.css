@@ -46,6 +46,13 @@ h1, h2 {
   }
 }
 
+@media (max-width: 320px) {
+  h1 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
 h1 span {
   color: #7858F2;
   border-bottom: 5px solid #7858F2;
@@ -81,6 +88,12 @@ input:focus {
   z-index: 3;
 }
 
+@media (max-width: 320px) {
+  .arrow {
+    margin-left: -20%;
+  }
+}
+
 .arrow-btn {
   margin-left: -18%;  
 }
@@ -105,7 +118,9 @@ input:focus {
 
 @media (max-width: 640px) {
   .arrow-btn {
+    /*height: 50px;*/
     margin-left: -20%;
+    /*width: 50px;*/
   }
 }
 
@@ -174,16 +189,23 @@ animation-duration:2s;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .appstore {
-    margin-right: 4%;
-    width: 19%;
+    margin-right: 3%;
+    width: 21%;
   } 
 }
 
 @media (max-width: 640px) {
   .appstore {
     margin-right: 4%;
+    width: 20%;
+  } 
+}
+
+@media (max-width: 320px) {
+  .appstore {
+    margin-right: 9%;
     width: 20%;
   } 
 }
@@ -235,6 +257,12 @@ animation-duration:2s;
 @media (max-width: 640px) {
   .comming-soon p{
     font-size: 12px;
+  } 
+}
+
+@media (max-width: 320px) {
+  .comming-soon p{
+    font-size: 8px;
   } 
 }
 
@@ -374,6 +402,7 @@ animation-duration:2s;
 
 @media (max-width: 640px) {
   .mail-input {
+    height: 50px;
     width: 55%;
   }
 }
@@ -423,6 +452,19 @@ animation-duration:2s;
   }
 }
 
+@media (max-width: 320px) {
+  .nav-logo {
+    margin: 20% 0 0 0;
+    width: 70%;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    margin-bottom: 0;
+  }
+}
+
 
 .ppl-image {
   margin-top:25%;
@@ -453,6 +495,13 @@ animation-duration:2s;
   }
 }
 
+@media (max-width: 320px) {
+  .preorder {
+    padding: 2%;
+    margin: 0 -13px 0 2px;
+  }
+}
+
 .preorder .myButton {
   background: url("../images/right-arrow.png") no-repeat white center;
   background-size: 50%;
@@ -466,6 +515,13 @@ animation-duration:2s;
 @media (max-width: 1024px) {
   .preorder .myButton {
     height:69px;
+  }
+}
+
+@media (max-width: 320px) {
+  .preorder .myButton {
+    height:50px;
+    width: 50px;
   }
 }
 
@@ -493,6 +549,12 @@ animation-duration:2s;
 @media (max-width: 640px) {
   .subscribe-title {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .subscribe-title {
+    font-size: 16px;
   }
 }
 
