@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/animate.min.css">
   <script src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/messa.js"></script>
    <!-- GA --> 
   <script>
     // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,16 +22,15 @@
 
     // ga('create', 'UA-89984190-1', 'auto');
     // ga('send', 'pageview');
-
   </script>
   </head>
   <body>
     <div class="container">
       <div class="row navbar">
-        <div class="col-md-6 col-xs-6 img-responsive">
+        <div class="col-md-6 col-sm-6 col-xs-3 img-responsive">
           <img class="nav-logo" src="images/messa.png" alt="Messa Logo">
         </div>
-        <div class="col-md-6 col-xs-6 text-right comming-soon">
+        <div class="col-md-6 text-right comming-soon">
           <p>Proximamente en</p>
           <img class="appstore" src="images/appstore.png" alt="apple_store">
         </div>  
@@ -46,32 +46,29 @@
             <div class="arrow animated bounce"></div>
           </a>
           <img class="img-responsive background-circle" src="images/circle-bg.png" alt="background">
-          <img class="img-responsive iphone-white animated fadeIn" id="iPhoneWhite" src="images/phone-2.png" alt="background">
-          <img class="img-responsive iphone-black  animated fadeIn" id="iPhoneBlack" src="images/phone-1.png" alt="background">
+          <img class="img-responsive iphone-white animated fadeInUp" id="iPhoneWhite" src="images/phone-2.png" alt="background">
+          <img class="img-responsive iphone-black  animated fadeInUp" id="iPhoneBlack" src="images/phone-1.png" alt="background">
         </div>
       </div>
 
       <!-- Mailchimp -->
-      <div class="row mailing-list">  
+      <div class="row mailing-list" id="mailChimp">  
         <div class="preorder text-center" id="mailing">
-          <form action="//omiustech.us13.list-manage.com/subscribe/post?u=e7555ff2e536d61d16f7cb38a&amp;id=0000535fd1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action="//messa.us13.list-manage.com/subscribe/post?u=e7555ff2e536d61d16f7cb38a&amp;id=0000535fd1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <div>
-                <label for="mce-EMAIL">
+                <label for="usr-EMAIL">
                 <h2 class="subscribe-title">Sin filas, sin cover, sin esperas <br>
                 y sencillo con <span>MESSA</span></h2>
                 </label>
               </div>
               <div class="row user-input">
-                <div class="col-md-7 text-right user-subscription">
-                  <input class="mail-input" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Avisame cuando este listo..." required>
+                <div class="col-md-9 col-sm-8 col-xs-10 user-subscription">
+                  <input class="mail-input" type="email" value="" name="EMAIL" class="email" id="usr-EMAIL" placeholder="Avisame cuando este listo..." required>
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" name="b_3c677e0abc8d3c9370c60de03_0ad0271671" tabindex="-1" value="">
-                  </div>
                 </div>
-                <div class="col-md-5 text-left">
-                  <div class="clear"><input class="myButton"></div>
+                <div class="col-md-3 col-sm-4 col-xs-2 arrow-btn">
+                  <input class="myButton"></div>
                 </div>
               </div>
             </div>
@@ -122,7 +119,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row dividers">
         <div class="col-md-12">
           <hr>
         </div>
@@ -134,22 +131,17 @@
           <img class="img-responsive maggie" src="images/user1.png" alt="user">
         </div>
         <div class="col-md-8 testimonial-text text-left">
-          <h4>"Makes the idea of going out much easier. I<br>
-          like the fact that you can create your own<br>
-          budget with different headings. Easy to<br>
-          use"</h4>
-          <div class="row">
-            <div class="col-md-4 text-left">
-              <p class="user-name">Maggie Lloyd</p>
-            </div>
-            <div class="col-md-8">
-              <img class="img-responsive stars" src="images/rating.png" alt="stars">
-            </div>
-          </div>
+          <h4>"Makes the idea of going out much easier. I
+          like the fact that you can create your own
+          budget with different headings. Easy to
+          use"<br>
+          <br>
+          <span>Maggie Lloyd</span></h4>
+          <img class="img-responsive stars" src="images/rating.png" alt="stars">
         </div>
       </div>
 
-      <div class="row">
+      <div class="row dividers">
         <div class="col-md-12">
           <hr>
         </div>
@@ -158,12 +150,12 @@
     <!-- Footer -->
       <div class="colophon">
         <div class="row">
-          <div class="col-md-6 text-left social-links">
+          <div class="col-sm-6 col-xs-6 text-center social-links">
             <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png" alt=""></a>
             <a href="http://twitter.com/" target="_blank"><img src="images/tw.png" alt=""></a>
             <a href="http://instagram.com/" target="_blank"><img src="images/im.png" alt=""></a>
           </div>
-          <div class="col-md-6 text-right copyright">MESSA - 2017 Todos los derechos reservados.</div>
+          <div class="col-sm-6 col-xs-6 text-center copyright">MESSA - 2017 Todos los derechos reservados.</div>
         </div>
       </div>  
               
