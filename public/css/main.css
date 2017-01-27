@@ -36,13 +36,13 @@ h1, h2 {
 
 @media (max-width: 1024px) {
   h1 {
-    font-size: 38px;
+    font-size: 36px;
   }
 }
 
 @media (max-width: 640px) {
   h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 
@@ -85,9 +85,21 @@ input:focus {
   margin-left: -18%;  
 }
 
+@media (max-width: 1080px) {
+  .arrow-btn {
+    margin-left: -13%;
+  }
+}
+
 @media (max-width: 1024px) {
   .arrow-btn {
     margin-left: -20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow-btn {
+    margin-left: -12%;
   }
 }
 
@@ -144,7 +156,15 @@ animation-duration:2s;
 }
 
 .appstore {
-  width: 30%;
+  margin-right: 3%;
+  width: 27%;
+}
+
+@media (max-width: 1080px) {
+  .appstore {
+    margin-right: 3%;
+    width: 30%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -154,9 +174,16 @@ animation-duration:2s;
   }
 }
 
+@media (max-width: 750px) {
+  .appstore {
+    margin-right: 4%;
+    width: 19%;
+  } 
+}
+
 @media (max-width: 640px) {
   .appstore {
-    margin-right: 5%;
+    margin-right: 4%;
     width: 20%;
   } 
 }
@@ -199,8 +226,16 @@ animation-duration:2s;
   }
 }
 
+@media (max-width: 768px) {
+  .comming-soon p{
+  font-size: 14px;
+  }
+}
+
 @media (max-width: 640px) {
-  
+  .comming-soon p{
+    font-size: 12px;
+  } 
 }
 
 .explanation{
@@ -218,6 +253,12 @@ animation-duration:2s;
 }
 
 @media (max-width: 1024px) {
+  .how-it-works .row {
+   margin: 10% 0;
+  }
+}
+
+@media (max-width: 768px) {
   .how-it-works .row {
    margin: 10% 0;
   }
@@ -307,16 +348,32 @@ animation-duration:2s;
   width: 55%;
 }
 
+@media (max-width: 1080px) {
+  .mail-input {
+    width: 70%;
+  }
+}
+
 @media (max-width: 1024px) {
   .mail-input {
-    padding: 5%;
-    width: 50%;
+    width: 51%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mail-input {
+    width: 70%;
+  }
+}
+
+@media (max-width: 750px) {
+  .mail-input {
+    width: 58%;
   }
 }
 
 @media (max-width: 640px) {
   .mail-input {
-    padding: 5%;
     width: 55%;
   }
 }
@@ -331,10 +388,31 @@ animation-duration:2s;
   width: 12%;
 }
 
+@media (max-width: 1080px) {
+  .nav-logo {
+    margin: 10% -1%;
+    width: 15%;
+  }
+}
+
 @media (max-width: 1024px) {
   .nav-logo {
     margin: 10% -1%;
+    width: 18%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    margin: 10% -1%;
     width: 20%;
+  }
+}
+
+@media (max-width: 750px) {
+  .nav-logo {
+    margin: 20% 0% 0% 0%;
+    width: 40%;
   }
 }
 
@@ -358,6 +436,12 @@ animation-duration:2s;
 }
 
 @media (max-width: 1024px) {
+  .preorder {
+    padding: 5%;
+  }
+}
+
+@media (max-width: 768px) {
   .preorder {
     padding: 5%;
   }
@@ -400,6 +484,12 @@ animation-duration:2s;
   }
 }
 
+@media (max-width: 768px) {
+  .subscribe-title {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 640px) {
   .subscribe-title {
     font-size: 20px;
@@ -433,6 +523,12 @@ animation-duration:2s;
   }
 }
 
+@media (max-width: 768px) {
+  .user-input {
+    margin: 0 0 5% 0;
+  }
+}
+
 @media (max-width: 640px) {
   .user-input {
     margin: 0 0 5% 0;
@@ -443,15 +539,33 @@ animation-duration:2s;
   left: 9%;
 }
 
+@media (max-width: 1080px) {
+  .user-subscription {
+    left: 8%;
+  }
+}
+
 @media (max-width: 1024px) {
   .user-subscription {
-    left: 10%;
+    left: 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-subscription {
+    left: 11%;
+  }
+}
+
+@media (max-width: 750px) {
+  .user-subscription {
+    left: 2%;
   }
 }
 
 @media (max-width: 640px) {
   .user-subscription {
-    left: 5%;
+    left: 3%;
   }
 }
 
@@ -486,6 +600,12 @@ h4 span {
   }
 }
 
+@media (max-width: 768px) {
+  .stars {
+    margin: -11% 0;
+  }
+}
+
 .testimonial-text {
   width: 50%;
 }
@@ -495,6 +615,12 @@ h4 span {
 }
 
 @media (max-width: 1024px) {
+  .user-name {
+    font-size: 12px;
+  }  
+}
+
+@media (max-width: 768px) {
   .user-name {
     font-size: 12px;
   }  
@@ -515,6 +641,13 @@ h4 span {
   }
 }
 
+@media (max-width: 768px) {
+  .colophon .copyright { 
+    font-size: 14px;
+    margin: 3% 0%;
+  }
+}
+
 @media (max-width: 640px) {
   .colophon .copyright { 
     font-size: 11px;
@@ -529,6 +662,13 @@ h4 span {
 }
 
 @media (max-width: 1024px) {
+  .colophon .social-links img { 
+    margin: 5% 10%; 
+    width: 6%;
+  }
+}
+
+@media (max-width: 768px) {
   .colophon .social-links img { 
     margin: 5% 10%; 
     width: 6%;
