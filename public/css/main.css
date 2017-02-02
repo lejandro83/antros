@@ -739,7 +739,7 @@ h4 span {
 .stars {
   float: right;
   margin: -9% 2% 0 0;
-  width: 45%;
+  width: 30%;
 }
 
 @media (max-width: 1024px) {
@@ -774,7 +774,7 @@ h4 span {
 
 .colophon .copyright { 
   color: #979797;
-  font-size: 16px;
+  font-size: 14px;
   margin: 2% 0%;
 }
 
@@ -800,22 +800,22 @@ h4 span {
 }
 
 .colophon .social-links img { 
-  margin: 5% 10%;
-  width: 4%;
+  margin: 5% 5%;
+  width: 3.5%;
   opacity: 0.5;
 }
 
 @media (max-width: 1024px) {
   .colophon .social-links img { 
     margin: 5% 10%; 
-    width: 6%;
+    width: 3.5%;
   }
 }
 
 @media (max-width: 768px) {
   .colophon .social-links img { 
     margin: 5% 10%; 
-    width: 6%;
+    width: 3.5%;
   }
 }
 
